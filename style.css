@@ -1,0 +1,36 @@
+h1{
+   text-align:left; 
+}
+.name{
+    margin: 10px 53px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.desc{
+    margin: 10px 2px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.size{
+    margin: 10px 65px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    margin: 30px 155px;
+}
+.list th{
+    border: 1px solid red;
+    padding: 0px 30px;
+}
+.list .body{
+    border:1px solid red ;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

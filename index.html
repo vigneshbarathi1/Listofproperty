@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>List of Property</h1>
+    <table class="master">
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onformsubmit();" autocomplete="off">
+<div class="name">
+    <label for="name">Name</label>
+    <input name="name" id="name" type="text">
+</div>
+<div class="desc">
+    <label for="Description">Description</label>
+    <input description="desc" id="desc" type="text">
+</div>
+<div class="size">
+    <label for="Size">Size</label>
+    <input size="size" id="size" type="text">
+</div>
+<div class="button">
+<input type="submit" value="ADD">
+</div>
+</form>
+</td>
+<td>
+    <table class="list" id="List of Property">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Size</th>
+            </tr>
+        </thead>
+        <tbody class="body">
+
+        </tbody>
+    </table>
+</td>
+        </tr>
+</table>
+<script src="script.js"></script>
+</body>
+</html>
